@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LacagMate Privacy Policy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #222;
+    }
+    header {
+      background: #1e293b;
+      color: white;
+      padding: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header a {
+      color: white;
+      text-decoration: none;
+      margin-left: 12px;
+      font-size: 14px;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 26px;
+    }
+    p, li {
+      font-size: 15px;
+      margin-bottom: 12px;
+      color: #444;
+      line-height: 1.5;
+    }
+    ul {
+      padding-left: 18px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div style="font-weight: bold; font-size: 18px;">LacagMate</div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p>Last updated: <span id="date"></span></p>
+
+    <p>
+      LacagMate collects basic information such as your name, email, password and profile
+      picture when you create an account. Inside the app, your added income, expenses, and
+      daily transactions are stored securely to generate balance reports.
+    </p>
+
+    <h2>Information We Collect</h2>
+    <ul>
+      <li>Your name and email</li>
+      <li>Your profile image</li>
+      <li>Your income and expense entries</li>
+      <li>Daily and monthly transaction data for reporting</li>
+    </ul>
+
+    <h2>How We Use Your Data</h2>
+    <ul>
+      <li>To create your account</li>
+      <li>To calculate your balance and daily reports</li>
+      <li>To display your transaction history inside the app</li>
+    </ul>
+
+    <h2>Data Security</h2>
+    <p>
+      All your information is stored safely. Passwords are encrypted and cannot be viewed by
+      anyone. We do not sell or share your personal information with third parties.
+    </p>
+
+    <h2>Contact Us</h2>
+    <p>If you have questions, email: support@lacagmate.com</p>
+
+  </div>
+
+  <script>
+    document.getElementById("date").textContent = new Date().toLocaleDateString();
+  </script>
+
+</body>
+</html>
